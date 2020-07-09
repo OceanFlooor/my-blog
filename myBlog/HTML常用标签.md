@@ -30,7 +30,11 @@ MDN 解释：可以创建通向其他网页、文件、同一页面内的位置�
   //google.com
   ```
 - 伪协议
-  `javascript:some awesome code; 点击会执行你输入的代码 mailto: someemail... 点击发送email tel: XXXXXXX 点击拨号`
+  ```
+  javascript:some awesome code; 点击会执行你输入的代码
+  mailto: someemail... 点击发送email
+  tel: XXXXXXX 点击拨号
+  ```
   `target`属性规定点击后网页打开方式，默认值为`_self`，就是在本标签页打开，其他的值还有`_blank`, `_top`, `_parent`,也可以由程序员自己给 window 或者 iframe 命名
 
 ## table
