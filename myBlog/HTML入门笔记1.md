@@ -4,7 +4,7 @@
 
 html 全称：`hyper text markup language`，翻译成中文就是“超文本标记语言”，于 1990 年一位物理学家 Tim Berners-Lee 发明，用于展示网页内容，与此同时，Tim Berners-Lee 还一并发明了`http`,`World Wide Web`，并且自己写了服务器，自己写了浏览器，旨在实现用户只要输入网址，就能在浏览器中展示网页，实现了“上网”这个概念。因此才有了今天的我在 github 上写下这段话并通过网络提交到 github 上让你点击一个网址就能看到。真的牛逼坏了:speak_no_evil:
 
-![](./../img/xixi.jpg)
+<img src="./../img/xixi.jpg" width = "250" height = "200">
 
 ## html 长什么样子？
 
