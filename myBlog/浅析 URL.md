@@ -22,7 +22,7 @@ IP用于定位一个设备的具体地址，它可以通过DNS将域名解析得
 ```
 https://github.com/
 ```
-这是一个url，而`github.com`就是域名，值得注意的是，域名是有分等级的，例如`www.github.com`，这里com是顶级域名，github.com是二级域名，www.github.com是三级域名，他们彼此之间是父子关系，所以`github.com`和`www.github.com`并非同一种域名，这里的`www`其实是非常多余的，它可以使任意英文串。
+这是一个url，而`github.com`就是域名，值得注意的是，域名是有分等级的，例如`www.github.com`，这里com是顶级域名，`github.com` 是二级域名，`www.github.com` 是三级域名，他们彼此之间是父子关系，所以`github.com`和`www.github.com`并非同一种域名，这里的`www`其实是非常多余的，它可以使任意英文串。
 
 ## ping &&
 
