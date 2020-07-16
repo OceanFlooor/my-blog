@@ -127,7 +127,7 @@ for (let i = 0; i < 6; i++) {
 另外，利用闭包暂存某一时刻变量的值得特性，也可以解决：
 
 ```javascript
-for (let i = 0; i < 6; i++) {
+for (var i = 0; i < 6; i++) {
   ;(function (i) {
     setTimeout(() => {
       console.log(i)
