@@ -1,2 +1,6 @@
 *.txt
 classdemo.js
+.vscode
+.prettierrc
+a.html
+sort.js
