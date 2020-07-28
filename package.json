@@ -1,0 +1,8 @@
+{
+  "name": "blog-test",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "jquery": "^3.5.1"
+  }
+}
