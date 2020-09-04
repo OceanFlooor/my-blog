@@ -39,7 +39,7 @@ CSS垂直居中问题是前端在CSS中经常能遇到的问题，他的处理�
 
 ## absolute + 负margin
 
-[预览链接](../static/css-verticle-center/1.1.html)
+[预览链接](https://oceanflooor.github.io/my-blog/static/css-verticle-center/1.1.html)
 
 代码：
 ```html
@@ -66,7 +66,7 @@ CSS垂直居中问题是前端在CSS中经常能遇到的问题，他的处理�
 思路：利用绝对定位和相对定位将子元素div向下和向右偏移基于父元素宽高的50%，接着利用负`margin`回偏子元素的半个身位。<strong>前提是必须知道子元素的宽高。</strong>
 
 ## absolute + calc
-[预览链接](../static/css-verticle-center/1.2.html)
+[预览链接](https://oceanflooor.github.io/my-blog/static/css-verticle-center/1.2.html)
 
 代码：
 ```html
@@ -95,7 +95,7 @@ CSS垂直居中问题是前端在CSS中经常能遇到的问题，他的处理�
 以下方法，就算不知道子元素宽高，也可以实现垂直居中。
 
 ## absolute + margin auto
-[预览链接](../static/css-verticle-center/2.1.html)
+[预览链接](https://oceanflooor.github.io/my-blog/static/css-verticle-center/2.1.html)
 
 代码：
 ```html
@@ -120,7 +120,7 @@ CSS垂直居中问题是前端在CSS中经常能遇到的问题，他的处理�
 绝对定位通过设置各个方向的距离都是0，再把margin设为auto，就可以在各个方向上居中
 
 ## absolute + transform
-[预览链接](../static/css-verticle-center/2.2.html)
+[预览链接](https://oceanflooor.github.io/my-blog/static/css-verticle-center/2.2.html)
 
 代码：
 ```html
@@ -147,8 +147,7 @@ CSS垂直居中问题是前端在CSS中经常能遇到的问题，他的处理�
 思路和 `absolute + 负margin` 一样，但是这里通过`transform: translate(-50%, -50%)` 实现负margin
 
 ## absolute + transform
-[预览链接](../static/css-verticle-center/2.3.html)
-
+[预览链接](https://oceanflooor.github.io/my-blog/static/css-verticle-center/2.3.html)
 代码：
 ```html
   <style>
@@ -173,7 +172,7 @@ CSS垂直居中问题是前端在CSS中经常能遇到的问题，他的处理�
 把inner设置为行内元素，通过text-align就可以做到水平居中，通过vertical-align可以在垂直方向做到居中
 
 ## writing mode
-[预览链接](../static/css-verticle-center/2.4.html)
+[预览链接](https://oceanflooor.github.io/my-blog/static/css-verticle-center/2.4.html)
 
 代码：
 ```html
@@ -208,7 +207,7 @@ CSS垂直居中问题是前端在CSS中经常能遇到的问题，他的处理�
 接下来wrapper以同样的方式设置`writing-mode: horizontal-tb`使得内部文字水平排列，配上`text-align: center`就可以让内元素`inner`在wrapper内水平居中。
 
 ## css-table
-[预览链接](../static/css-verticle-center/2.5.html)
+[预览链接](https://oceanflooor.github.io/my-blog/static/css-verticle-center/2.5.html)
 
 代码：
 ```html
@@ -233,7 +232,7 @@ CSS垂直居中问题是前端在CSS中经常能遇到的问题，他的处理�
 父元素outter的display设置为table-cell，即可通过text-align、vertical-align控制子元素在它内部的对其方式。
 
 ## flex
-[预览链接](../static/css-verticle-center/2.6.html)
+[预览链接](https://oceanflooor.github.io/my-blog/static/css-verticle-center/2.6.html)
 
 代码：
 ```html
