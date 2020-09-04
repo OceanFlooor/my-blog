@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>writing-mode</title>
+    <link rel="stylesheet" type="text/css" href="common.css" />
+    <style>
+      .outter {
+        writing-mode: vertical-lr;
+        text-align: center;
+      }
+      .wrapper {
+        display: inline-block;
+        writing-mode: horizontal-tb;
+        text-align: center;
+        width: 100%;
+      }
+      .inner {
+        display: inline-block;
+        line-height: initial;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="outter">
+      <div class="wrapper">
+        <div class="inner">inner div</div>
+      </div>
+    </div>
+  </body>
+</html>

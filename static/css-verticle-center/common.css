@@ -1,0 +1,13 @@
+.outter {
+  border: 1px solid red;
+  width: 300px;
+  height: 300px;
+}
+
+.inner {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  color: white;
+}
