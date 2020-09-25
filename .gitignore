@@ -1,8 +1,11 @@
 *.txt
 .vscode
 .prettierrc
-a.html
 /jsFile/
 .idea
 /node_modules/
 /test/
+.prettierrc
+/a.html
+/css-naked-page
+/dragDiv
