@@ -105,8 +105,11 @@ CSS垂直居中问题是前端在CSS中经常能遇到的问题，他的处理�
     }
     .inner {
       position: absolute;
-      top: calc(50% - 50px);
-      left: calc(50% - 50px);
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
     }
   </style>
 
