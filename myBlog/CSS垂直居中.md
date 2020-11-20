@@ -149,8 +149,9 @@ CSS垂直居中问题是前端在CSS中经常能遇到的问题，他的处理�
 
 思路和 `absolute + 负margin` 一样，但是这里通过`transform: translate(-50%, -50%)` 实现负margin
 
-## absolute + transform
+## vertical-align
 [预览链接](https://oceanflooor.github.io/my-blog/static/css-verticle-center/2.3.html)
+
 代码：
 ```html
   <style>
